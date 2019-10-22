@@ -188,7 +188,7 @@ header nav ul li a {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('goran-ivos-idmvPhF8t4E-unsplash.jpg') no-repeat center center/cover;
+    background: url('img/goran-ivos-idmvPhF8t4E-unsplash.jpg') no-repeat center center/cover;
     z-index: -1;
 }
 
@@ -225,6 +225,7 @@ header nav ul li a {
     width: 100%;
     box-sizing: border-box;
     border-radius: 50%;
+    padding-bottom: 20px;
 }
 
 .juju p {
@@ -234,7 +235,7 @@ header nav ul li a {
 }
 
 .juju-links div{
-    margin: 15px 15px 0;
+    margin: 15px 15px 15px;
     width: calc(100%-30px);
     height: 50px;
     background-color: #a8a4a4;
@@ -286,6 +287,10 @@ footer ul li a {
     text-align: center;
 }
 
+.contacts-links li {
+    size: 60px;
+}
+
 /* PROJECTS */
 
 h5 {
@@ -296,8 +301,9 @@ h5 {
 }
 
 .projects{
-    height: 900px;
+    height: 850px;
     text-align: center;
+    background-color: rgb(150, 175, 175);
   }
   
   h2{
@@ -319,4 +325,23 @@ h5 {
   
   .project-img{
     width: 100%;
+    border-radius: 10%;
   }
+
+  /* SKILLS */
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    width: fit-content;
+}
+
+h7 {
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    line-height: 65px;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
