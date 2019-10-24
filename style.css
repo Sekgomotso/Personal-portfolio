@@ -367,7 +367,7 @@ h5 {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 h7 {
@@ -379,6 +379,7 @@ h7 {
     line-height: 65px;
     padding-bottom: 10px;
     font-weight: 900;
+    text-transform: uppercase;
 }
 
 .skills {
@@ -389,8 +390,12 @@ h7 {
     background-position-y: center;
 }
 
-.icons {
-    width: 512px 512px;
+.skills .skill-grid .icons {
+    position: relative;
+}
+
+.skills .skill-grid .icons img {
+    width: 100%;
 }
 
 .about {
