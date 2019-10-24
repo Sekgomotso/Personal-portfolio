@@ -331,6 +331,7 @@ h5 {
   .column {
       position: relative;
       width: 50%;
+      padding: 20px;
   }
 
 .project-img {
@@ -340,6 +341,7 @@ h5 {
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+    border-radius: 10%;
 }
 
 .hover-pic {
@@ -359,6 +361,12 @@ h5 {
 
 .column:hover .hover-pic {
     opacity: 1;
+}
+
+h6 {
+    background-color: #9f7e69;
+    color: #f2efc7;
+    padding: 10px 30px;
 }
 
   @media only screen and (min-width:1000px){
