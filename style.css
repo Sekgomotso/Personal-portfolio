@@ -231,6 +231,7 @@ header nav ul li a {
 }
 
 .juju p {
+    font-family: sans-serif;
     color: antiquewhite;
     text-shadow: 1.5px 1.5px 6px #111;
     text-align: center;
@@ -443,6 +444,7 @@ h7 {
 .skills {
     text-align: center;
     padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .skills .skill-grid .icons {
