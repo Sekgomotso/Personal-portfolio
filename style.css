@@ -113,7 +113,7 @@ header .logo {
     font-family: sans-serif;
     font-size: 40px;
     font-weight: 900;
-    display: block;
+    display: grid;
     margin: 0 auto;
     text-align: center;
     padding: 1rem;
@@ -156,7 +156,7 @@ header nav ul {
 }
 
 header nav ul li {
-    display: inline-block;
+    display: inline-grid;
     list-style: none;
     color: #000;
     padding: 0 1rem;
@@ -270,7 +270,7 @@ footer ul {
 }
 
 footer ul li {
-    display: inline-block;
+    display: inline-grid;
     font-display: center;
     list-style: none;
     padding: 0 1rem;
@@ -311,7 +311,7 @@ h5 {
 }
 
 .projects{
-    height: 850px;
+    height: 800px;
     padding-top: 35px;
     text-align: center;
     background-image: url(img/laptop.jpeg);
@@ -325,21 +325,10 @@ h5 {
   }
   
   .row{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-self: center;
   }
-  
-  /* .column{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    padding: 20px;
-  } */
-  
-  /* .project-img{
-    width: 100%;
-    border-radius: 10%;
-  } */
 
   .column {
       position: relative;
@@ -349,7 +338,7 @@ h5 {
 
 .project-img {
     opacity: 1;
-    display: block;
+    display: grid;
     width: 100%;
     height: auto;
     transition: .5s ease;
@@ -405,13 +394,13 @@ h6 {
       }
 
     .row{
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template: auto;
       }
       
       .column{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template: auto;
         flex: 1;
         padding: 20px;
       }
