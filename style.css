@@ -174,10 +174,10 @@ header nav ul li a {
 /* SECTION */
 
 .juju {
+    padding-top: 4em;
     position: relative;
     height: 100vh;
     display: grid;
-    padding-top: 300px;
     background: rgba(0,0,0,.75);
 }
 
@@ -191,11 +191,6 @@ header nav ul li a {
     background: url('img/goran-ivos-idmvPhF8t4E-unsplash.jpg') no-repeat center center/cover;
     z-index: -1;
 }
-
-.juju-box{
-    grid-template-columns: auto;
-}
-
 
 .juju h1 {
     font-family: sans-serif;
@@ -225,9 +220,9 @@ header nav ul li a {
     width: 100%;
     box-sizing: border-box;
     border-radius: 10%;
-    transform: rotate(-90deg);
-    margin-top: 2.9em;
-    margin-bottom: 2.9em;
+    height: 25em;
+    margin-top: 1em;
+    margin-bottom:1em;
 }
 
 .juju p {
@@ -287,7 +282,7 @@ footer ul li a {
 .footer-tag {
     color: antiquewhite;
     font-family: sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -301,7 +296,7 @@ footer ul li a {
 
 h5 {
     font-family: sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     color: rgb(235, 235, 207);
     text-shadow: 1.5px 1.5px 6px #111;
     text-align: center;
@@ -415,11 +410,6 @@ h6 {
 
   /* SKILLS */
 
-.skills-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
 h7 {
     font-family: sans-serif;
     font-size: 50px;
@@ -438,13 +428,30 @@ h7 {
     padding-bottom: 35px;
 }
 
-.skills .skill-grid .icons {
-    position: relative;
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-start: unset;
+    align-content: center;
 }
 
-.skills .skill-grid .icons img {
-    width: 100%;
+.sql {
+    align-content: left;
+    height: 100px;
+    padding-top: 50px;
 }
+
+.django {
+    height: 100px;
+    padding-top: 50px;
+}
+
+.node {
+    height: 100px;
+    padding-top: 50px;
+}
+
+/* CURRICULUM VITAE */
 
 .about {
     font-family: sans-serif;
