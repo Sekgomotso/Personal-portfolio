@@ -129,11 +129,20 @@
                  <li><a href="https://github.com/Sekgomotso" target="_blank"><i class="fab fa-github-square"></i></a></li>
                  <li><a href="mailto:motsoshalang@gmail.com?Subject=website" target="_blank"><i class="fas fa-at"></i>
                  </a></li>
-                 <li><a href="https://www.linkedin.com/in/sekgomotso-shalang-2a87671a7/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                 <li><a href="https://www.linkedin.com/in/sekgomotso-shalang/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
              </ul>
              </div>
-             Copyright &copy; 2019
+
+             <p> Copyright &copy; <span class="year"></span> Sekgomotso </p>
+
         </footer>
+
+        <script>
+          const yearEl = document.querySelector('.year');
+          const date = new Date();
+          const year = date.getFullYear();
+          yearEl.innerText = year;
+        </script>
 
     </body>
     
